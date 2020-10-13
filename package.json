@@ -1,0 +1,28 @@
+{
+  "name": "no-time",
+  "version": "1.0.0",
+  "description": "time tracker made easy",
+  "main": "main.js",
+  "scripts": {
+    "start:react": "rm -rf ./dist && parcel ./src/windows/dashboard/index.html ./src/windows/widget/index.html",
+    "start:electron": "electron main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "active-win": "6.1.0",
+    "electron": "9.1.0",
+    "parcel": "1.12.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "5.1.1"
+  },
+  "devDependencies": {
+    "@types/electron": "1.6.10",
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "@types/styled-components": "5.1.1",
+    "dotenv": "8.2.0",
+    "typescript": "3.9.6"
+  }
+}
